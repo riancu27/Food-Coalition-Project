@@ -1,5 +1,6 @@
 from . import routes
 
-@routes.route('/')
+
+@routes.route("/")
 def index():
-    return 'Hello World'
+    return "Hello World"
